@@ -1,12 +1,15 @@
-# ALX HTML & CSS Project
+## Task 0: Some Early Styling
 
-This repository contains my solutions for the *alx_html_css* project.  
-It includes HTML and CSS files demonstrating basic web development concepts such as:
+For this task, I set up the initial CSS structure of the project.
 
-- HTML structure and semantics
-- Embedding tweets and links
-- CSS styling (base styles, custom styles)
-- Flexbox positioning
-- Responsive design for smartphones
+### Steps I followed:
+1. Created a new directory called css_basic inside my repository alx_html_css.
+2. Copied the index.html and tweets.html files from the html_basic directory of the previous project into the new css_basic directory.
+3. Created two CSS files:
+   - base.css → contains the base styling rules.
+   - styles.css → an empty stylesheet for my custom rules.
+4. Updated both HTML files (index.html and tweets.html) by adding the following lines inside the <head> tag:
 
-## Directory Structure
+   ```html
+   <link href="base.css" rel="stylesheet">
+   <link href="styles.css" rel="stylesheet">
