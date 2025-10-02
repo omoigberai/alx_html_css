@@ -1,5 +1,4 @@
 /* styles.css */
-
 /* Make body a flex container, stacking header, main, footer vertically */
 body {
   display: flex;
@@ -35,4 +34,61 @@ header, footer {
   background-color: #333;
   color: white;
   padding: 10px;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: gold;
+}
+
+/* Header navigation menu */
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Article content look */
+article {
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin: 15px;
+}
+
+/* Table design */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #333;
+  color: white;
+}
+
+/* Footer design */
+footer {
+  text-align: center;
+  font-size: 14px;
 }
