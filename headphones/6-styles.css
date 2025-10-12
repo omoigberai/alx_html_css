@@ -1,0 +1,71 @@
+/* Basic layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.our-results p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Pentagon grid */
+.pentagon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Pentagon shape (CSS-only) */
+.pentagon {
+  position: relative;
+  width: 120px;
+  aspect-ratio: 1;
+  background: #ff6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.pentagon:hover {
+  transform: scale(1.1);
+}
+
+.pentagon .number {
+  font-size: 1.2rem;
+}
+
+.pentagon p {
+  font-size: 0.8rem;
+  margin: 5px 0 0;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .pentagon-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
