@@ -1,0 +1,201 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* HEADER */
+.header {
+  background: #000;
+  padding: 20px 0;
+}
+
+.header .logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header .nav ul {
+  list-style: none;
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header .nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  background: url("images/headphones_hero_1.jpg") no-repeat center center/cover;
+  color: #fff;
+  padding: 150px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff6565;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff3333;
+}
+
+/* WHAT WE DO */
+.what-we-do {
+  padding: 80px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service {
+  width: 200px;
+}
+
+.service i {
+  font-size: 48px;
+  color: #ff6565;
+  margin-bottom: 20px;
+}
+
+/* OUR RESULTS */
+.our-results {
+  background: #ff6565;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.results {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.result {
+  background: #fff;
+  color: #ff6565;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.result span {
+  font-size: 24px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 80px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.btn {
+  background: #ff6565;
+  border: none;
+  cursor: pointer;
+}
+/* ===== FOOTER SECTION ===== */
+footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+footer .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+footer .footer-logo i {
+  font-size: 32px;
+  color: #ff3b3b;
+}
+
+footer .social-icons {
+  margin: 20px 0;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #ff3b3b;
+}
+
+footer p {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 15px;
+}
